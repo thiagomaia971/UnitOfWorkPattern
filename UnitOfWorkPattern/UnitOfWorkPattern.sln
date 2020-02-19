@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWrokPattern.Core", "UnitOfWrokPattern.Core\UnitOfWrokPattern.Core.csproj", "{482BA4DC-3ABC-4CEB-893B-D2BEA166820F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWorkPattern.Example", "UnitOfWorkPattern.Example\UnitOfWorkPattern.Example.csproj", "{EC877FD4-B3CD-48AD-B12F-6988F727EEC2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{482BA4DC-3ABC-4CEB-893B-D2BEA166820F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482BA4DC-3ABC-4CEB-893B-D2BEA166820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482BA4DC-3ABC-4CEB-893B-D2BEA166820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482BA4DC-3ABC-4CEB-893B-D2BEA166820F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC877FD4-B3CD-48AD-B12F-6988F727EEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC877FD4-B3CD-48AD-B12F-6988F727EEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC877FD4-B3CD-48AD-B12F-6988F727EEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC877FD4-B3CD-48AD-B12F-6988F727EEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

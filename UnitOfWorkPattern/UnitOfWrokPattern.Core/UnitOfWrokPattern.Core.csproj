@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>UnitOfWorkPattern.Core</PackageId>
+    <Version>1.0.4</Version>
+    <Authors>Thiago Maia</Authors>
+    <Company>MySelf</Company>
+    <PackageDescription>Teste Project Nuget Package</PackageDescription>
+    <RepositoryUrl>https://github.com/thiagomaia971/UnitOfWorkPattern</RepositoryUrl>
+  </PropertyGroup>
+</Project>
